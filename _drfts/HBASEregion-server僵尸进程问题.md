@@ -1,4 +1,4 @@
-杀端口重启的方法已经过时。
+杀端口重启的方法已经过时。
 ``` sh
 ubuntu@cdh-master4:~$ ll   /tmp/ | grep hbase
 drwxr-xr-x    3 akulaku   appuser         4096 Apr  9 02:09 hbase-akulaku/
