@@ -4,13 +4,13 @@ SEOTitle: 雪峰的博客 | xfly
 header-img: img/post-bg-desk.jpg
 email: niexxf@163.com
 description: "Every failure is leading towards success."
-keyword: "柏荧的博客, bigdata, 雪峰"
+keyword: "xuefly, bigdata, 雪峰"
 url: "http://silvermissile.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/silvermissile/silvermissile.github.io.git" # you code repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: false                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/site/profile_huge.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 

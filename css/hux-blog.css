@@ -540,7 +540,8 @@ pre code {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 5px 0;
+      /* 2019-07-12 edit */
   }
 }
 .intro-header .site-heading {
@@ -548,7 +549,8 @@ pre code {
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading {
-    padding: 150px 0;
+    padding: 5px 0;
+      /* 2019-07-12 edit */
   }
 }
 .intro-header .site-heading,
