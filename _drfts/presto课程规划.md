@@ -17,7 +17,4 @@ https://en.wikipedia.org/wiki/Elapsed_real_time
 
 这完全可以搞一个教程出来。
 jvm：实操。怎么看，怎么设置。
-
-
-alipresto.akulaku.com   172.22.11.50
-impala.jdbc.aku  172.22.8.100
+查看和修改配置的方法
