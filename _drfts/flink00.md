@@ -1,3 +1,6 @@
+- 安装
+- 启动
+- 提交程序
 下载地址：
 https://flink.apache.org/downloads.html
 ``` sh
