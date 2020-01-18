@@ -1,3 +1,7 @@
+[Mac下iTerm2光标按照单词快速移动设置](https://blog.csdn.net/skyyws/article/details/78480132)
+alt+左右箭头。
+
+
 网络
 networksetup
 networksetup -listallhardwareports
