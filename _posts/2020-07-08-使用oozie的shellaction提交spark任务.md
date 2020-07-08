@@ -61,29 +61,27 @@ yarn 路径的权限问题.`Oozie shell action - Permission denied: user=xyz, ac
 解决方法:
 - 配置任务时添加环境变量`<env-var>HADOOP_USER_NAME=username</env-var>`
 - 或者在脚本中`export HADOOP_USER_NAME=xyz`
+
+
 ## 指定 hive 配置
 想要在 shell 任务类型中使用 hive。
 比如：
 - `shell`中使用`hive -e `
 - `shell`中提交的`spark`任务中访问了`hive`
 
-这时需要指定 `hive-site.xml`
+这时需要指定 `hive-site.xml`.否则:
+``` sh
 
-``` xml
-<action name="someaction">
-  <shell xmlns="uri:oozie:shell-action:0.2">
-    <job-tracker>${jobTracker}</job-tracker>
-    <name-node>${nameNode}</name-node>
-    <exec>somescript.sh</exec>
-    <env-var>SOME_VARIABLE=1</env-var>
-    <file>${someactionScriptPathName}#somescript.sh</file>
-    <capture-output/>
-  </shell>
-  <ok to="nextaction"/>
-  <error to="Kill"/>
-</action>
+aused by: java.sql.SQLException: Unable to open a test connection to the given database. JDBC url = jdbc:derby:;databaseName=/var/lib/hive/metastore/metastore_db;create=true, username = APP. Terminating connection pool (set lazyInit to true if you expect to start your database after your app). Original Exception: ------
+java.sql.SQLException: Failed to create database '/var/lib/hive/metastore/metastore_db', see the next exception for details.
 ```
 
+指定方法:
+``` xml
+<file>/user/zhaoxf/hive-site.xml#hive-site.xml</file>
+```
+然后在命令行添加选项:
+`--files hive-site.xml \`
 
 当引用了 hive 的 jar 包,还要指定 hive 依赖
 ``` xml
