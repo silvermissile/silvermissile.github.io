@@ -101,7 +101,7 @@ ansible cdh -m shell   -a "ls -l  /opt/cloudera/parcels/CDH/jars/hive-exec-1.1.0
 
 ### 部署
 
-上传`/Users/rf/xuefeng/workspace/hive/packaging/target/apache-hive-1.1.0-cdh5.14.0-jdbc.jar`到集群.
+找到编译后的jar`find   ./  -name hive-exec-1.1.0-cdh5.14.0.jar`上传到集群.
 
 ``` sh
 # 替换 jar 包
