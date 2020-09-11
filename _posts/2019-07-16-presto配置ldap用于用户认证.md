@@ -81,6 +81,8 @@ ldap.user-base-dn=DC=al, DC=com
 正常启动，说明import 这步是完成正确的。
 presto coordinator 跟ldap server 之间的连接配置完成。
 
+>以下步骤的结果是体现在/etc/presto_keystore_20191009.jks  、 $JAVA_HOME/jre/lib/security/cacerts。这些步骤操作完之后，当需要在其他节点上重复操作时，只需要替换替换目标节点的这两个文件即可
+
 ## 为客户端配置HTTPS服务
 
 ### ~~使用自签名的证书（弃用）~~
@@ -165,7 +167,7 @@ Issuer: CN=al-AL-CA-1, DC=al, DC=com
 
 - 方法一：在线转换
 [SSL证书格式转换工具](https://www.chinassl.net/ssltools/convert-ssl.html)
-![]()
+![](https://raw.githubusercontent.com/silvermissile/silvermissile.github.io/master/img/post/8VlYnW.jpg)
 - 方法二：命令行转换
 
   ``` sh
