@@ -1,4 +1,4 @@
-网络
+P网络
 networksetup
 networksetup -listallhardwareports
 Hardware Port: Ethernet
