@@ -170,7 +170,7 @@ Issuer: CN=al-AL-CA-1, DC=al, DC=com
 
 - 方法一：在线转换
 [SSL证书格式转换工具](https://www.chinassl.net/ssltools/convert-ssl.html)
-![](https://raw.githubusercontent.com/silvermissile/silvermissile.github.io/master/img/post/8VlYnW.jpg)
+![](https://raw.githubusercontent.com/silvermissile/silvermissile.github.io/master/img/post/8VlYn2.jpg)
 - 方法二：命令行转换
 
   ``` sh
