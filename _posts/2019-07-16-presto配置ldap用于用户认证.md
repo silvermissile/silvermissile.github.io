@@ -47,9 +47,12 @@ keytool -import -keystore /javahome/jre/lib/security/cacerts -trustcacerts -alia
 ``` sh
 keytool -list -keystore   /javahome/jre/lib/security/cacerts
 keytool -list -keystore   /javahome/jre/lib/security/cacerts | grep ldap
+keytool -list -keystore   cacerts | grep ldap
 ```
 
 
+
+keytool -import -keystore /usr/local/datadisk/jdk1.8.0_181/jre/lib/security/cacerts -trustcacerts -alias ldap20210609 -file /usr/local/datadisk/jdk1.8.0_181/jre/lib/security/ldap.cer
 
 
 ### 修改配置文件
