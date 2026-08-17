@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: google
-    tagId: UA-143318267-1
+    tagId: G-YX2BB5JH6S
   locale: zh-CN
   baseUrl: silvermissile.github.io
   ignorePatterns:
@@ -201,8 +201,8 @@ plugins:
       options:
         repo: silvermissile/silvermissile.github.io
         repoId: MDEwOlJlcG9zaXRvcnkxOTQyNzg5NDE=
-        category: General
-        categoryId: DIC_kwDOC5R2Hc4DDkD7
+        category: Announcements
+        categoryId: DIC_kwDOC5R2Hc4DDkD6
         mapping: url
         strict: true
         reactionsEnabled: true
