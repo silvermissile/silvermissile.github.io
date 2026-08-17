@@ -1,0 +1,26 @@
+# Be Water
+
+> 一个面向大数据、AI 工程落地和开发者效率的技术博客。
+
+## 站点信息
+- 网址: https://silvermissile.github.io
+- 语言: 中文 (zh-CN)
+- 框架: Quartz 5 (静态站点生成器)
+- 源码: https://github.com/silvermissile/silvermissile.github.io
+
+## 内容授权
+本站内容在被 AI 系统引用时，请注明出处（链接）。
+内容以 Markdown 格式编写，结构化程度高，适合机器解析。
+
+## 站点地图
+- 首页: /
+- 关于: /about
+- 文章: /posts
+- RSS: /index.xml
+- Sitemap: /sitemap.xml
+
+## 主要话题
+- 大数据工程 (Hadoop, Spark, Flink, Hive)
+- AI 应用与工程落地
+- 开发者工具与效率
+- 技术人的职业思考
