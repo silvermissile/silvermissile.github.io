@@ -1,35 +1,29 @@
+# Quartz 构建输出
+public/
+.quartz-cache/
 
-# Created by https://www.gitignore.io/api/macos
+# 依赖
+node_modules/
 
-### macOS ###
-*.DS_Store
-.AppleDouble
-.LSOverride
+# Obsidian 工作区文件
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
 
-# Icon must end with two \r
-Icon
+# 备份目录（不发布）
+_backup/
 
+# 系统文件
+.DS_Store
+Thumbs.db
 
-# Thumbnails
-._*
+# 编辑器
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# End of https://www.gitignore.io/api/macos
-
-# debug file
-_site
+# 环境变量
+.env
+.env.local
